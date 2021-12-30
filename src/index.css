@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+textarea {
+  width: 70vw;
+  min-width: 280px;
+  padding: 0 10px;
+}
+
+img {
+  width: 30%;
+}
+
+code {
+  background: #eee;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+p > code {
+   padding: 3px;
+}
+
+blockquote {
+    border-left: 3px solid #15c;
+    color: #15c;
+    padding-left: 5px;
+  }
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: background-color 0.7s;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+.fa-compress-arrows-alt:hover, .fa-expand-arrows-alt:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

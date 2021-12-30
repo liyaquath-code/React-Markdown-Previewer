@@ -1,0 +1,11 @@
+.toolbar {
+    height: 40px;
+    background: #AAE;
+    padding: 2px 15px;
+    border: 1px solid black;
+    border-bottom: none;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

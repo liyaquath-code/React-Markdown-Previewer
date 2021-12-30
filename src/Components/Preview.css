@@ -1,0 +1,8 @@
+.previewContainer {
+    width: 70vw;
+    min-width: 280px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background-color: #FFF;
+    overflow: auto;
+  }
